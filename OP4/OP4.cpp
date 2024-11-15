@@ -10,7 +10,7 @@ vector<char> removeSpacesBetweenQuestions(vector<char> text) {
     int firstQuestionIndex = -1;
     int secondQuestionIndex = -1;
 
-    // Находим индексы первого и второго знаков вопроса
+    // Находим индексы первого и второго знаков вопроса.
     for (int i = 0; text.size() > i; ++i) {
         if (text[i] == '?') {
             if (firstQuestionIndex == -1) {
